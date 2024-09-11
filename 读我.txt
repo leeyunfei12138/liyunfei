@@ -1,0 +1,50 @@
+
+连接数据库文件：dbconfig.php！！！
+默认数据库密码是root：
+//数据库配置文件
+	define("HOST","localhost");
+	define("USER","root");
+	define("PASS","root");
+	define("DBNAME","anxilvyou");
+
+如果你的数据库密码是空，改成
+//数据库配置文件
+	define("HOST","localhost");
+	define("USER","root");
+	define("PASS","");
+	define("DBNAME","anxilvyou");
+
+如果你的数据库密码是123456，改成
+//数据库配置文件
+	define("HOST","localhost");
+	define("USER","root");
+	define("PASS","123456");
+	define("DBNAME","anxilvyou");
+密码根据实际情况修改
+
+
+
+源码均经过测试，如果配置后出现报错，请先检查数据库配置，如数据库密码、端口号及运行环境。
+建议运行环境版本：PHP7.3  MYSQL：5.7
+
+
+常用的运行软件有phpstudy、wamp、xampp、appserv等。
+
+推荐使用phpstudy
+
+配置详细说明
+1、数据库文件夹中的sql文件导入到数据库中，自动创建数据库
+2、将整个源码放到运行目录下，源码运行目录不能有中文(一般为www目录，运行目录取决于你用什么环境运行，xampp环境请将源码放到htdocs文件夹中)
+3、修改数据库配置。默认数据库密码是root，如果你的数据库密码不是root，请到dbconfig.php文件中修改数据库密码。
+
+
+
+
+
+管理员：(仅一个)
+用户名：admin
+密码：admin888
+
+用户：（可注册）
+用户名：test
+密码：test
